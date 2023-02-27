@@ -1,0 +1,20 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "projeto do byte bank",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardo-Lisboa/bytbank.git"
+  },
+  "author": "Edurado Lisboa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduardo-Lisboa/bytbank/issues"
+  },
+  "homepage": "https://github.com/Eduardo-Lisboa/bytbank#readme"
+}

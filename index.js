@@ -1,23 +1,5 @@
-class Client {
-    nome;
-    cpf;
-}
-
-class ContaCorrente {
-    agencia;
-    _saldo = 0;
-
-    sacar(valor) {
-        if (this._saldo >= valor) this._saldo -= valor;
-        return valor;
-    }
-
-    depositar(valor) {
-        if (valor <= 0) return;
-
-        this._saldo += valor;
-    }
-}
+import { Client } from "./Client.js";
+import { ContaCorrente } from "./ContaCorrente.js";
 
 const client1 = new Client();
 client1.nome = "Ricarod";
